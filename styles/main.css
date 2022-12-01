@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300&family=Kavoon&display=swap');
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --lightGray: #c4c4c4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--black);
+}
+
+.contentS {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 34rem;
+}
+
+.nav__logo {
+    font-family: 'Karantina', cursive;
+    color: white;
+    font-size: 3.5rem;
+}
+
+.nav__itens {
+    display: flex;
+    gap: 1em;
+    font-size: 1.5rem;
+    font-family:'Kavoon', cursive;
+    align-items: center;
+}
+
+.nav__itens a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.nav__itens a:hover {
+    color: var(--lightGray);
+}
+
+.header__navItens {
+    color: var(--white);
+    font-family: 'Kavoon', cursive;
+}
+
+.header__navItens ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3em;
+}
+
+.header__banner {
+    width: 100%;
+}
